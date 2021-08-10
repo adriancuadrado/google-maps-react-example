@@ -1,15 +1,23 @@
 import React from 'react';
 import { StandaloneSearchBox } from '@react-google-maps/api';
+import { useDispatch } from 'react-redux';
+import { addLocation } from "../features/locations/locationsSlice";
 
 let standaloneSearchBox;
 
-function SearchBox(props) {
+function SearchBox() {
+  const dispatch = useDispatch();
   return (
     <StandaloneSearchBox
-      onLoad={(ssb)=>{standaloneSearchBox = ssb;}}
-      onPlacesChanged={()=>{
-        props.setLocations(locations => 
-          [...locations, standaloneSearchBox.getPlaces()[0].geometry.location]
+      onLoad={ssb => standaloneSearchBox = ssb}
+      onPlacesChanged={() => {
+        dispatch(
+          addLocation(
+            standaloneSearchBox
+            .getPlaces()[0]
+            .geometry
+            .location
+          )
         );
       }}
     >

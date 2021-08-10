@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
 import SearchBox from "./SearchBox";
 import Markers from "./Markers";
@@ -16,7 +16,6 @@ let center = {
 };
 
 function Map() {
-  const [locations, setLocations] = useState([]);
   return (
     <LoadScript
       googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
@@ -30,8 +29,8 @@ function Map() {
             disableDefaultUI: true
         }}
       >
-        <Markers locations={locations}/>
-        <SearchBox setLocations={setLocations}/>
+        <Markers />
+        <SearchBox />
       </GoogleMap>
     </LoadScript>
   )
