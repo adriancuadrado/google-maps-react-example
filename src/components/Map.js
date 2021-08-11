@@ -24,7 +24,7 @@ function Map() {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={3}
+        zoom={2}
         options={{
             disableDefaultUI: true
         }}
