@@ -2,6 +2,7 @@
   "name": "google-maps-react-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adriancuadrado.github.io/google-maps-react-example",
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.12.1",
     "@react-google-maps/api": "^2.2.0",
