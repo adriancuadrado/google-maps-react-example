@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/google-maps-react-example/static/css/main.e8ce6833.chunk.css",
+    "main.js": "/google-maps-react-example/static/js/main.74961229.chunk.js",
+    "main.js.map": "/google-maps-react-example/static/js/main.74961229.chunk.js.map",
+    "runtime-main.js": "/google-maps-react-example/static/js/runtime-main.db5a6e2c.js",
+    "runtime-main.js.map": "/google-maps-react-example/static/js/runtime-main.db5a6e2c.js.map",
+    "static/js/2.9467837a.chunk.js": "/google-maps-react-example/static/js/2.9467837a.chunk.js",
+    "static/js/2.9467837a.chunk.js.map": "/google-maps-react-example/static/js/2.9467837a.chunk.js.map",
+    "static/js/3.d8359949.chunk.js": "/google-maps-react-example/static/js/3.d8359949.chunk.js",
+    "static/js/3.d8359949.chunk.js.map": "/google-maps-react-example/static/js/3.d8359949.chunk.js.map",
+    "index.html": "/google-maps-react-example/index.html",
+    "static/css/main.e8ce6833.chunk.css.map": "/google-maps-react-example/static/css/main.e8ce6833.chunk.css.map",
+    "static/js/2.9467837a.chunk.js.LICENSE.txt": "/google-maps-react-example/static/js/2.9467837a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db5a6e2c.js",
+    "static/js/2.9467837a.chunk.js",
+    "static/css/main.e8ce6833.chunk.css",
+    "static/js/main.74961229.chunk.js"
+  ]
+}
