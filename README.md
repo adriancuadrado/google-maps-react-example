@@ -1,5 +1,7 @@
 # Google Maps React example
 
+View it live here: https://adriancuadrado.github.io/google-maps-react-example/
+
 ## How to install and run the project
 
 ### Docker
